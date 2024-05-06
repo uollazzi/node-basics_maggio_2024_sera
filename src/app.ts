@@ -21,5 +21,3 @@ myPath();
 console.log("=".repeat(20));
 import myUrl from "./es-url";
 myUrl();
-
-console.log("Saluti");
