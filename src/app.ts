@@ -21,3 +21,18 @@ myPath();
 console.log("=".repeat(20));
 import myUrl from "./es-url";
 myUrl();
+
+console.log("=".repeat(20));
+import myProcess from "./es-process";
+myProcess();
+
+console.log("=".repeat(20));
+import myFs, { saveProducts } from "./es-fs";
+myFs();
+saveProducts();
+
+console.log("=".repeat(20));
+import { getPosts, getPostsSync } from "./richieste";
+getPosts();
+getPostsSync();
+

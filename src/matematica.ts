@@ -16,4 +16,10 @@ export const sommaMultipla = (...numeri: number[]): number => {
     return r;
 }
 
+export const PI = 3.14;
+
 export default moltiplicazione;
+
+export class Persona {
+
+}

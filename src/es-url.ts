@@ -8,4 +8,12 @@ export default () => {
     console.log("path:", parsedUrl.pathname);
     console.log("query:", parsedUrl.searchParams.get("query"));
     console.log("apiKey:", parsedUrl.searchParams.get("apiKey"));
+
+    const baseUrl = "https://www.amazon.com";
+    const path = "/products";
+    const queryString = { category: "electronics", page: "1", limit: "20" };
+    const constructedUrl = new URL(path, baseUrl);
+    constructedUrl.search = new URLSearchParams(queryString).toString();
+
+    console.log(constructedUrl.searchParams.get("category"));
 }
