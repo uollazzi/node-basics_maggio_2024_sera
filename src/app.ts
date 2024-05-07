@@ -34,5 +34,7 @@ saveProducts();
 console.log("=".repeat(20));
 import { getPosts, getPostsSync } from "./richieste";
 getPosts();
+
+
 getPostsSync();
 
