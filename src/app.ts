@@ -29,12 +29,11 @@ myProcess();
 console.log("=".repeat(20));
 import myFs, { saveProducts } from "./es-fs";
 myFs();
-saveProducts();
+// saveProducts();
 
-console.log("=".repeat(20));
-import { getPosts, getPostsSync } from "./richieste";
-getPosts();
+// console.log("=".repeat(20));
+// import { getPosts, getPostsSync } from "./richieste";
+// getPosts();
 
-
-getPostsSync();
+// getPostsSync();
 
