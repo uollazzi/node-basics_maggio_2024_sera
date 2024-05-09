@@ -62,3 +62,5 @@ export const saveProducts = async () => {
 
     fs.writeFileSync(path.join(dataFullDir, "products.json"), JSON.stringify(dati), "utf8");
 }
+
+// test git
